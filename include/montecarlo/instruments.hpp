@@ -6,5 +6,5 @@
 
 struct Call {
     std::uint64_t strike_pence;
-    mc::core::Date maturity;
+    mc::core::Date maturity_ymd;
 };
